@@ -1,0 +1,25 @@
+- name: "satish"
+  dob: "1997-01-01"
+  mobilenumber: 123445699
+  addresses:
+  - flatno: 1-54
+    street: "Kothapeta"
+    town:   "chagallu"
+    type: "permanent"
+  - flatno: 1-56
+    street: "Ramalayam"
+    town: "kovvur"
+    type: "temperory"
+
+- name: "harish"
+  dob: "1997-01-01"
+  mobilenumber: 123445699
+  addresses:
+  - flatno: 1-54
+    street: "Kothapeta"
+    town:   "chagallu"
+    type: "permanent"
+  - flatno: 1-56
+    street: "Ramalayam"
+    town: "kovvur"
+    type: "temperory"
