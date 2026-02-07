@@ -4,7 +4,7 @@
   vars:
     COURSE: "DevOps with AWS"
     DURATION: "140HRS"
-    TRAINER: "Sivakumar Reddy"
+    TRAINER: "Satish lakkam"
   tasks:
   - name: print variables
     ansible.builtin.debug:
