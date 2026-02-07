@@ -1,0 +1,44 @@
+<!--Students Object-->
+<Students>
+  <student>
+       <firstNmae>Satish<firstNmae/>
+       <DOB>29-06-1997</DOB>  
+       <Gende>Male</Gender>
+       <emai>satishlakkam@gmail.com</gmail>
+       <addresses>
+           <PemanentAddress>
+                <DNO>1-54</DNO>
+                <street>kothapetta</street>
+                <town>chagallu</town>
+            </PemanentAddress>    
+            <TemperoryAddress>
+                <DNO>1-54</DNO>
+                <street>kothapetta</street>
+                <town>chagallu</town>
+            </TemperoryAddress> 
+
+       </addresses>
+   
+  </student>
+
+ <student>
+       <firstNmae>harish<firstNmae/>
+       <DOB>29-06-1997</DOB>  
+       <Gende>Male</Gender>
+       <emai>satishlakkam@gmail.com</gmail>
+       <addresses>
+           <PemanentAddress>
+                <DNO>1-54</DNO>
+                <street>kothapetta</street>
+                <town>chagallu</town>
+            </PemanentAddress>    
+            <TemperoryAddress>
+                <DNO>1-54</DNO>
+                <street>kothapetta</street>
+                <town>chagallu</town>
+            </TemperoryAddress> 
+
+       </addresses>
+   
+  </student> 
+</Students>
