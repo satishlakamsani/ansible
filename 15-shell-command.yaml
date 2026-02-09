@@ -11,7 +11,7 @@
      msg: "{{users_output}}"
   - name: command module test
     #ansible.builtin.command: cat /etc/passwd | grep root
-    ansible.builtin.shell: ls-ltr > files.txt
+    ansible.builtin.shell: cat /etc/passwd |grep root
     register: files_output
   - name: print the files_output
     ansible.builtin.debug:
