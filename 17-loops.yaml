@@ -1,0 +1,12 @@
+- name: adding loops to make dictionary
+  hosts: local
+  connection: local
+  tasks: 
+  - name: print items with dictionary
+    ansible.builtin.debug:
+      msg: "Hello {{items}}"
+      state: present
+    loop:
+    - mysql
+    - nginx
+    - zip
