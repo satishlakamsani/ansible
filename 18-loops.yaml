@@ -1,6 +1,7 @@
 - name: kay pairs loop
   hosts: local
-  connectrion: local 
+  connectrion: local
+  become: yes
   tasks: 
   - name: install package
     ansible.builtin.package:
