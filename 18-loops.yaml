@@ -1,0 +1,12 @@
+- name: kay pairs loop
+  hosts: local
+  connectrion: local 
+  tasks: 
+  - name: install package
+    ansible.builtin.package:
+     name: "{{item.name}}"
+     state: item.state
+    loop:
+    - {name: "mysql", state: "absent"}
+    - {name: "nginx", state: "present"}
+    - {name: "zip", state: "present"}
