@@ -1,13 +1,13 @@
 - name: filters calculation
   hosts: local
   connection: local
-  vars:
+  vars: #string
    topics: linux,shell,ansible,terraform
-   tagsMap:
+   tagsMap: #
     name: ansible
     project: roboshop
     component: catalogue
-    tagList: [
+    tagList: [  #list of map
       {
         "key": "name",
         "value": "ansible"
@@ -28,3 +28,6 @@
   - name: convert string to List
     ansible.builtin.debug:
      msg: "{{topics | split(',')}}"
+  - name: convert map to list
+    ansible.builtin.debud:
+     msg: "{{tagsMap | dict2items}"
