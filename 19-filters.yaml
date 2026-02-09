@@ -7,7 +7,7 @@
     name: ansible
     project: roboshop
     component: catalogue
-    tagList: [  #list of map
+   tagList: [  #list of map
       {
         "key": "name",
         "value": "ansible"
