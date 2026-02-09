@@ -37,3 +37,7 @@
   - name: convert list to map
     ansible.builtin.debug:
      msg: " {{tagList | items2dict}}"
+
+  - name: convert YAML to JSON
+    ansible.builtin.debud:
+     msg: "{{students.yaml | to_nice_json}}"
