@@ -4,7 +4,7 @@
   tasks: 
   - name: print items with dictionary
     ansible.builtin.debug:
-      msg: "Hello {{items}}"
+      msg: "Hello {{item}}"
       state: present
     loop:
     - mysql
