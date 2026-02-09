@@ -1,0 +1,10 @@
+- name: checking the number is great or not
+  hosts: local
+  connection: local
+  vars:
+   NUMBER_OF_working_days: 5
+  tasks:
+  - name: check working days is less than 5
+    ansible.builtin.debug:
+      msg: "working days is greater than 4 and lessthan 6"
+    when: NUMBER_OF_working_days <=6
