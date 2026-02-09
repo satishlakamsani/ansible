@@ -25,11 +25,11 @@
   - name: greeting
     ansible.builtin.debug:
      msg: "Hi satish, {{Gretting | default('Good Morning')}}"
-     
+
   - name: convert string to List
     ansible.builtin.debug:
      msg: "{{topics | split(',')}}"
 
   - name: convert map to list
     ansible.builtin.debug:
-     msg: "{{tagsMap | dict2items}"
+     msg: "{{tagsMap | dict2items}}"
