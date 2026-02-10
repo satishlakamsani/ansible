@@ -3,6 +3,7 @@
   connection: local
   vars: #string
    topics: linux,shell,ansible,terraform
+   my_ip: 128.28.32.0
    tagsMap: #
     name: ansible
     project: roboshop
@@ -53,3 +54,7 @@
   - name: convert given word to upper case
     ansible.builtin.debug:
      msg: "{{'Hello Satish' | upper}}"
+
+  - name: validate my ip address
+    ansible.builtin.debug:
+     msg: "{{ my_ip |ansible.utils.ipv4}}"
