@@ -45,3 +45,7 @@
   - name: convert YAML to JSON
     ansible.builtin.debug:
      msg: "{{students_yaml | to_nice_json}}"
+    
+  - name: convert given word to upper case
+    ansible.builtin.debug:
+     msg: "{{Hello World | upper}}"
