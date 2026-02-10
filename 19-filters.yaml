@@ -46,6 +46,10 @@
     ansible.builtin.debug:
      msg: "{{students_yaml | to_nice_json}}"
     
-  - name: convert given word to upper case
+  - name: convert given word to lower case
     ansible.builtin.debug:
      msg: "{{'Hello World'| lower}}"
+
+  - name: convert given word to upper case
+    ansible.builtin.debug:
+     msg: "{{'Hello Satish' | upper}}"
