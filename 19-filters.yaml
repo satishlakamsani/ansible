@@ -48,4 +48,4 @@
     
   - name: convert given word to upper case
     ansible.builtin.debug:
-     msg: "{{Hello World | lower}}"
+     msg: "{{'Hello World'| lower}}"
