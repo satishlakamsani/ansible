@@ -8,7 +8,7 @@
     IS_LIVE: true  #bool
     DETAILS: #map/dictionary{}
      MONTHS: 4
-     Trainer: "Satish"
+     Trainer: "karthik"
     TOPICS: #List
     - LINUX
     - SHELL
