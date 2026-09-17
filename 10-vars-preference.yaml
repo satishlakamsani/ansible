@@ -3,8 +3,8 @@
   connection: local
   #vars: 
     #NAME: "Ansible from PLAY"
-  vars_files:
-  - course.yaml
+  #vars_files:
+  #- course.yaml
   vars_prompt:
   - name: NAME 
     prompt: please enter name
@@ -14,4 +14,5 @@
     #vars:
       #NAME: "Ansible from task"
     ansible.builtin.debug:
-      msg: "Hi {{NAME}}"
+      msg: "Hi {{NAME}}" 
+      
